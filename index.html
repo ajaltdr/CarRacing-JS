@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+    
+</head>
+<body>
+
+    <div id="main-screen">
+        <h1 id="welcome">WELCOME!!!</h1>
+        <div id="start-screen">
+            <h1 style="font-style: italic;">2D RACING GAME</h1>
+        
+            <button id="start">Let's RACE!</button>
+            
+            <div id="tutorial">
+                <h2>-- Game Tutorial --</h2>
+                <ul>
+                    <li>Press right and left arrow key to move the car accordingly.</li>
+                    <li>Dodge the car approaching from opposite direction.</li>
+                    <li>Game ends if you collide with the cars.</li>
+                    <li>If objects doesn't move reload the page again</li>
+                </ul>
+                <h4>ENJOY THE RACE!!!</h4>
+            </div>
+
+        </div>
+    
+    <canvas id = "canvas"></canvas>
+    
+    <div id = "end-screen">
+        <h1>GAME OVER!</h1>
+        <div id="your-score">
+            <p>Your score: <strong>15</strong>.</p>
+          </div>
+         
+        <button id="restart">Let's RACE AGAIN!</button>
+
+        <div id = "game-score">
+            <h4></h4>
+        </div>
+    </div>
+    </div>  
+    
+</body>
+<script src="src/script.js"></script>
+</html>
