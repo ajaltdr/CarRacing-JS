@@ -75,7 +75,7 @@ class ObstacleCar{
                 gameScore.innerText = score;
                 gameScore.style.display="none";
               if (speed < 50) {
-                speed += 0.1;
+                speed += 0.3;
                 this.speed = speed / 2;
               }
             }
